@@ -1,0 +1,245 @@
+@charset "UTF-8";
+h1 {
+  color: #996666;
+  margin-bottom: 0px;
+}
+header p{
+  color: #996666;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  
+}
+img{
+  width: 65%;
+  filter: sepia(20%);
+  border-radius: 20px;
+  transition:transform 0.3s;
+}
+img:hover {
+  transform:scale(1.1);
+}
+section{
+  text-align: center;
+}
+header{
+  text-align: center;
+  background-color: #F7F3DD;
+  padding: 100px;
+  font-family: 'Kaisei Tokumin', serif;
+}
+
+body {
+  margin: 0px;
+  background-color: #FFF3CB;
+}
+
+.flex {
+ justify-content: center;
+  display: flex; /*横並び*/
+  gap: 20px;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+.flex .image {
+  height: 700px;
+  width: 400px;
+  position: relative;
+  margin: 0; 
+  transition:transform 0.3s;
+}
+.flex .image:hover {
+  transform:scale(1.1);
+}
+
+.flex .image img{
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.flex .right {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+.flex .title {
+  color: #996666;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+}
+.flex .text {
+  color: #996666;
+  font-size: 20px;
+  line-height: 3.0;
+  width: 400px;
+  margin: 0px 0 0;
+  padding: 0;
+  margin: 600;
+}
+.flex.order .image{
+  order: 2;
+}
+.flex.order .right{
+  order: 1;
+}
+.flex.order{
+  margin-top: 150px;  
+}
+
+section{
+  background-color: #FFFEED;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 50px;
+
+}
+.boom{
+  font-family: 'Zen Maru Gothic', sans-serif; 
+  padding-bottom: 100px;
+}
+h4 {
+  color: #996666;
+  font-size:30px;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-top: 50px;
+}
+h3{
+  color:#996666;
+  font-size:25px;
+}
+
+
+.ethnic .image{
+  width: 330px;
+  height:300px;
+  background-image: url("../image/31747.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  filter: sepia(20%);
+  animation-name: fadeInAnime;
+  animation-duration:3s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+ 
+}
+.movie .image{
+  width: 330px;
+  height:300px;
+  background-image: url("../image/suumo2.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  filter: sepia(20%);
+  animation-name: fadeInAnime;
+  animation-duration:3s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+ 
+}
+.yoga .image{
+  width: 330px;
+  height:300px;
+  background-image: url("../image/OIP.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  filter: sepia(20%);
+  animation-name: fadeInAnime;
+  animation-duration:3s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+  
+}
+p{
+  color: #996666;
+  font-size: 17px;
+}
+
+.setumei{
+  text-align: left;
+
+}
+
+footer{
+  text-align: center;
+  background-color: #F7F3DD;
+  padding: 60px 60px 60px 60px;
+  font-family: 'Kaisei Tokumin', serif;
+}
+.photos img{
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  object-fit: cover;
+}
+
+.photos{
+  animation-name: fadeInAnime;
+  animation-duration:3s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+  filter: blur(2px);
+  }
+  
+  @keyframes fadeInAnime{
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+.coment{
+  color: #996666;
+  text-align: left;
+  width: 400px;
+  margin: auto;
+}
+
+.yorosiku{
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+.table{
+  color: #996666;
+  text-align: left;
+  width: 400px;
+  margin: auto;
+  list-style: none;
+}
+.table ul{
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+.footertext{
+  display: flex;
+}
+ul{
+  list-style: none;
+}
+.sns-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sns img{
+  width: 50px;
+  padding: 10px;
+  filter: sepia(20%);
+}）
+.sub{
+  background-color: #FFFEED;
+  width:100%;
+}
