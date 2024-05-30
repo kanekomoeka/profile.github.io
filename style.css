@@ -120,7 +120,7 @@ h3{
 .ethnic .image{
   width: 330px;
   height:300px;
-  background-image: url("../image/31747.jpg");
+  background-image: url("31747.jpg");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -135,7 +135,7 @@ h3{
 .movie .image{
   width: 330px;
   height:300px;
-  background-image: url("../image/suumo2.jpg");
+  background-image: url("suumo2.jpg");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -150,7 +150,7 @@ h3{
 .yoga .image{
   width: 330px;
   height:300px;
-  background-image: url("../image/OIP.jpg");
+  background-image: url("OIP.jpg");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
